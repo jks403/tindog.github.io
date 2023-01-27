@@ -1,0 +1,224 @@
+body{
+text-align:center;
+    font-family: "Montserrat";
+}
+
+
+
+h1, h2, h3, h4, h5,h6{   
+   
+    font-family: "Montserrat-Bold";   /*lesson 76 3 minutes in */
+     font-size: 3.5rem; 
+     line-height: 1.5;    
+     text-align: center;
+
+     
+}
+
+
+p{
+    color:#afafaf;
+    text-align:center;
+}
+
+
+.big-heading{
+    font-family: "Montserrat-Black";   /*lesson 76 3 minutes in */
+    font-size: 3.5rem; 
+    line-height: 1.5; 
+    
+}
+
+
+
+/* containers */
+.container-fluid{
+    padding: 7% 15%;  /* 3% to the top and bottom 15 % right and left*/
+}
+
+
+/* Section */
+.colored-section{
+    background-color:#ff4c68;    /*lesson 76 3 minutes in */
+    color:#fff;
+    text-align: center;
+
+}
+.white-section{
+background-color: #fff;
+text-align: center;
+
+}
+
+
+
+
+/* navigation-bar*/            /*lesson 76 5 minutes in */
+
+.navbar{                      
+    padding-bottom: 0 0 4.5rem;   /* # 76 8:29 in */
+    
+}
+
+.nav-link{
+    font-size:1.2rem;
+    font-family: "Montserrat-light";
+   /* # 76 9 minutes 52 seconds  in */
+}
+
+
+.navbar-brand{                /* # 76 9 minutes 52 seconds  in */
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;   /* 0 top and bottom and 18 left and right*/
+    color:aqua;
+}
+
+.nav-link{
+    font-family:"Montserrat-light";
+    font-size:1.2rem;
+}
+
+/* download buttons     13 minutes in  */
+.download-button{            
+    margin: 5% 3% 5% 3%;
+}
+
+/* Title section*/
+
+/* Title image   14 minutes in */
+.title-image{
+      height:350px; /* next rotation 16 minutes in */
+      width:300px;    
+      transform: rotate(25deg);
+      position:absolute;
+      right:30%;   
+}
+
+
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+ .feature-title{
+
+    font-size: 1.5rem;
+}
+
+/* features secion */  /* #78 14 minutes in*/
+#features{
+    padding:7% 15%;
+    
+    padding:5%;
+    background-color:#fff;
+    position:relative;
+    z-index:1;
+   
+    
+}
+
+
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+.testimonial-text{
+    font-size:3rem;
+    line-height: 1.5;
+}
+
+
+
+#testimonials {
+    padding:7% 15%;
+    background-color:#ef8172;
+    
+}
+
+.testimonial-image{     /* for the dog */
+    width:10%;
+    border-radius:100%;
+   position:relative;
+   left:300px;
+   
+}
+
+#press{
+    background-color:#ef8172;
+   
+    padding-bottom:3%;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 75px 10px;
+    text-align:center;
+}
+
+.carousel-item{
+    padding:7% 15%;
+
+}
+
+ 
+.section-heading{
+    font-size:3rem;
+    line-height: 1.5;
+    text-align:center;
+}
+
+
+.price-text{
+    font-size:3rem;
+    line-height: 1.5;
+ }
+
+
+
+
+#pricing{
+    padding: 100px;
+    
+}
+.pricing-column{
+    padding: 3% 2%;
+    
+}
+
+
+
+@media(max-width:1028px){
+#title{
+   
+}
+
+    .title-image{
+        position:static;
+        transform:rotate(0);
+    }
+}
+.cta-download-button{
+    
+    text-align: center;
+}
+  
+.footer{
+   padding:1% 7%;  
+}
+
+.social-icon {
+    position:relative;
+    left:570px;
+    margin:auto;
+    
+}
