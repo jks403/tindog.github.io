@@ -96,8 +96,8 @@ text-align: center;
       width:300px;    
       transform: rotate(25deg);
       position:relative;
-      right:30%;  
-      top:50%;
+      right:20%;  
+      top:50%; /* this makes the image under the white part using relative. Relative is the way HTML styles it without anything else. By DEFAULT*/
 }
 
 
