@@ -48,6 +48,7 @@ p{
 background-color: #fff;
 text-align: center;
 
+
 }
 
 
@@ -97,7 +98,7 @@ text-align: center;
       transform: rotate(25deg);
       position:relative;
       right:20%;  
-      top:50%; /* this makes the image under the white part using relative. Relative is the way HTML styles it without anything else. By DEFAULT*/
+      top:50%;     /* this forces the picture under the White Features*/
 }
 
 
@@ -119,6 +120,7 @@ text-align: center;
     background-color:#fff;
     position:relative;
     z-index:1;
+    
    
     
 }
