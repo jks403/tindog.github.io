@@ -92,11 +92,12 @@ text-align: center;
 
 /* Title image   14 minutes in */
 .title-image{
-      height:350px; /* next rotation 16 minutes in */
+      height:300px; /* next rotation 16 minutes in */
       width:300px;    
       transform: rotate(25deg);
-      position:absolute;
-      right:30%;   
+      position:relative;
+      right:30%;  
+      top:50%;
 }
 
 
